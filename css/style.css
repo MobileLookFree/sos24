@@ -1,0 +1,208 @@
+body{
+	background-color: #FFFFFF;
+}
+
+a{
+	color:#FFFFFF;
+}
+
+a:hover{
+	color:white;
+}
+
+nav{
+    background-color: #58595b;
+}
+
+.side-nav{
+   background-color:#58595b; 
+}
+
+.side-nav a {
+  color: #FFFFFF;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 32px;
+}
+
+.side-nav a:hover {
+  background-color: #4f5052;
+}
+
+nav .nav-wrapper{
+	margin: 0 auto;
+	max-width: 1240px;
+	width: 80%;
+}
+
+nav .brand-logo{
+	height: 168%;
+	line-height: 100%;
+}
+
+nav ul a{
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 1rem;
+	display: block;
+	padding: 0 10px;
+	cursor: pointer;
+}
+
+nav .call{
+	color: #58595b;
+	background-color: #ffeb3b;
+}
+
+nav .call:hover{
+	color: #FFFFFF;
+	background-color: #4f5052;
+}
+
+
+nav .button-collapse{
+	color: #ffeb3b;
+	float: center;
+}
+
+nav .button-collapse:hover{
+    color: #FFFFFF;
+}
+
+nav .social-icons{
+	display: block;
+	height: 100%;
+	line-height: 100%;
+	padding: 20%;
+}
+
+h4{
+    color: #58595b;
+    padding-top: 23%;
+    font-weight: 300;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1240px;
+    width: 80%;
+}
+
+.row{
+    margin-bottom: 0;
+}
+
+.carousel.carousel-slider  {
+    display: block;
+    width: 100%;
+    height: 50%;
+    min-height: 27rem; 
+    max-height: 40rem;
+  -webkit-perspective: 500px;
+          perspective: 500px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform-origin: 0% 50%;
+          transform-origin: 0% 50%;
+}
+
+
+
+.carousel.carousel-slider .carousel-item {
+    width: 100%;
+    max-width: 1240px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carousel .indicators .indicator-item {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 14px 4px;
+  background-color: yellow;
+  transition: background-color .3s;
+  border-radius: 50%;
+}
+
+.carousel .indicators .indicator-item.active {
+  background-color: #58595b;
+}
+
+space{
+    width: 100%;
+    min-height: 2rem; 
+    display: block;
+}
+
+cost{
+    color: #58595b;
+    background-color: #f1f1f1;
+    width: 100%;
+    min-height: 22rem;
+    position: relative;;
+	display: block;
+}
+
+services{
+    color: #FFFFFF;
+    background-color: #58595b;
+    width: 100%;
+    min-height: 22rem;
+    position: relative;;
+	display: block;
+}
+
+icons{
+    color: #58595b;
+    width: 100%;
+    min-height: 22rem;
+    position: relative;
+	display: block;
+	background-color: #ffeb3b;
+
+}
+
+other{
+    color: #58595b;
+    width: 100%;
+    min-height: 22rem;
+    position: relative;
+    display: block;
+}
+
+othericon{
+    color: #58595b;
+    width: 100%;
+    min-height: 16rem;
+    position: relative;;
+	display: block;
+    background-color: #f1f1f1;  
+}
+
+footer{
+	position: relative;
+	bottom:0px;
+	display: block;
+	background-color: #58595b;
+}
+
+.col.contacts{
+    color: #FFFFFF;
+}
+
+footer .footer-copyright{
+	background-color: #212121;
+	color: white;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+
